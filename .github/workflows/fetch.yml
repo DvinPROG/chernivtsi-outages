@@ -11,7 +11,7 @@ concurrency:
 jobs:
   fetch:
     name: Fetch
-    if: github.repository_owner == 'denysdovhan'
+    if: github.repository_owner == 'DvinPROG'
     runs-on: ubuntu-latest
     steps:
       - name: ⬇️ Checkout Repo
